@@ -7,8 +7,12 @@ var About = require('About');
 var Examples = require('Examples');
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
+
+//appcss
+
+require('style!css!!sass!applicationStyles');
 
 ReactDOM.render(
   <Router history={browserHistory}>
